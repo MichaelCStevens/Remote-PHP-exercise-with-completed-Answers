@@ -155,67 +155,7 @@ $data = array(
         'Name' => 'Constantinople',
         'Likes' => 'Web Development',
         'Element' => 'Nerd',
-    ),
-    array(
-        'Name' => 'Trixie',
-        'Color' => 'Green',
-        'Element' => 'Earth',
-        'Likes' => 'Flowers',
-    ),
-    array(
-        'Name' => 'Trixie',
-        'Color' => 'Green',
-        'Element' => 'Earth',
-        'Likes' => 'Flowers',
-    ),
-    array(
-        'Name' => 'Tinkerbell',
-        'Element' => 'Air',
-        'Likes' => 'Singing',
-        'Color' => 'Blue',
-    ),
-    array(
-        'Element' => 'Water',
-        'Likes' => 'Dancing',
-        'Name' => 'Blum',
-        'Color' => 'Pink',
-    ),
-    array(
-        'Color' => 'Neon Purple',
-        'Name' => 'Constantinople',
-        'Likes' => 'Web Development',
-        'Element' => 'Nerd',
-    ),
-    array(
-        'Name' => 'Trixie',
-        'Color' => 'Green',
-        'Element' => 'Earth',
-        'Likes' => 'Flowers',
-    ),
-    array(
-        'Name' => 'Trixie',
-        'Color' => 'Green',
-        'Element' => 'Earth',
-        'Likes' => 'Flowers',
-    ),
-    array(
-        'Name' => 'Tinkerbell',
-        'Element' => 'Air',
-        'Likes' => 'Singing',
-        'Color' => 'Blue',
-    ),
-    array(
-        'Element' => 'Water',
-        'Likes' => 'Dancing',
-        'Name' => 'Blum',
-        'Color' => 'Pink',
-    ),
-    array(
-        'Color' => 'Neon Purple',
-        'Name' => 'Constantinople',
-        'Likes' => 'Web Development',
-        'Element' => 'Nerd',
-    ),
+    )
 );
 
 $table = new dataToASCII($data);
