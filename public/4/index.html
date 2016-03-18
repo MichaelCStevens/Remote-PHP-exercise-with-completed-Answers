@@ -1,0 +1,61 @@
+<h3>Display the supplied array of data in an ASCII table.</h3>
+
+<p>Rules and Conditions:</p>
+
+<ul>
+	<li>Array data will not always be in the same order, but the keys will stay the same. (Think of the data as
+	being dynamic -- this data is an example of what could be <em>anything</em>).</li>
+	<li>Procedural or OOP, doesn't matter.</li>
+	<li>The web is at your disposal -- use PHP.net and other resources as you see fit. Except...</li>
+	<li>
+		<strong>No libraries or existing solutions allowed.</strong> This test is to see how you tackle a problem from scratch,
+		what your thoughts and strategies are, <br>
+		how you problem solve, etc. We can't see that if you use existing code (although that's obviously what we'd encourage in the real world!). :)
+	</li>
+</ul>
+
+<h4>Data</h4>
+
+<pre>
+array(
+	array(
+		'Name' => 'Trixie',
+		'Color' => 'Green',
+		'Element' => 'Earth',
+		'Likes' => 'Flowers',
+	),
+	array(
+		'Name' => 'Tinkerbell',
+		'Element' => 'Air',
+		'Likes' => 'Singing',
+		'Color' => 'Blue',
+	),
+	array(
+		'Element' => 'Water',
+		'Likes' => 'Dancing',
+		'Name' => 'Blum',
+		'Color' => 'Pink',
+	),
+	array(
+		'Color' => 'Neon Purple',
+		'Name' => 'Constantinople',
+		'Likes' => 'Web Development',
+		'Element' => 'Nerd',
+	),
+);
+</pre>
+
+<h4>Desired Output</h4>
+
+<pre>
++----------------+-------------+---------+-----------------+
+|      Name      |    Color    | Element |      Likes      |
++----------------+-------------+---------+-----------------+
+| Trixie         | Green       | Earth   | Flowers         |
+| Tinkerbell     | Blue        | Air     | Singing         |
+| Blum           | Pink        | Water   | Dancing         |
+| Constantinople | Neon Purple | Nerd    | Web Development |
++----------------+-------------+---------+-----------------+
+</pre>
+
+<p><a href="answer.php">View answer.php</a></p>
