@@ -25,9 +25,10 @@ class dataToASCII
 
     function getColumnLongestStrCnt()
     {
+
+        $maxLength = 0;
         foreach ($this->data as $k => $column) {
             //get the max length of the largest string so we can ensure the columns are created wide enough to fit the data
-            $maxLength = 0;
             foreach ($column as $key => $v) {
                 $a = strlen($key);
                 $b = strlen($v);
