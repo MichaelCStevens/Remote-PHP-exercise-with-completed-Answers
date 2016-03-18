@@ -62,12 +62,11 @@ class dataToASCII
 //create seprators based on string length
         if ($this->separator == '') {
             $this->separator = '<br/>';
-            foreach ($this->columns['headers'] as $data) {
                 $this->separator .= $this->colStartEnd;
                 for ($i = 0; $i <= $this->maxLength; $i++) {
                     $this->separator .= '-';
                 }
-            }
+
             $this->separator .= $this->colStartEnd;
         }
         //   echo $this->separator;
